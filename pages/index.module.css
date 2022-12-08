@@ -29,6 +29,9 @@
 .main .icon {
   width: 34px;
 }
+.main .loading {
+  width: 50;
+}
 .main h3 {
   font-size: 32px;
   line-height: 40px;
@@ -41,11 +44,14 @@
   flex-direction: column;
   width: 320px;
 }
-.main input[type="text"] {
+.main input[type="text"],
+.main input[type="number"],
+.main select {
   padding: 12px 16px;
   border: 1px solid #10a37f;
   border-radius: 4px;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
+  margin-top: 4px;
 }
 .main ::placeholder {
   color: #8e8ea0;
